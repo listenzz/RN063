@@ -7,14 +7,7 @@
  */
 
 import React from 'react';
-import {
-  SafeAreaView,
-  StyleSheet,
-  ScrollView,
-  View,
-  Text,
-  StatusBar,
-} from 'react-native';
+import {SafeAreaView, StyleSheet, ScrollView, View, Text} from 'react-native';
 
 import {
   Header,
@@ -24,10 +17,10 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-const App: () => React$Node = () => {
+const App = ({xxxx}) => {
+  console.log(`xxxx:${xxxx}`);
   return (
     <>
-      <StatusBar barStyle="dark-content" />
       <SafeAreaView>
         <ScrollView
           contentInsetAdjustmentBehavior="automatic"
@@ -70,6 +63,18 @@ const App: () => React$Node = () => {
       </SafeAreaView>
     </>
   );
+};
+
+App.navigationItem = {
+  titleItem: {
+    title: '集成 hybrid-navigation 示例',
+  },
+  rightBarButtonItem: {
+    title: 'Test',
+    action: (navigator) => {
+      navigator.push('App', {xxxx: true, zzzz: 'zzzzz'});
+    },
+  },
 };
 
 const styles = StyleSheet.create({
