@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "16.13.1",
     "react-native": "0.63.0",
-    "react-native-navigation-hybrid": "^0.25.0"
+    "react-native-navigation-hybrid": "^0.30.0"
   },
   "devDependencies": {
     "@babel/core": "^7.10.5",

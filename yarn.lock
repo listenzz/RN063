@@ -5511,10 +5511,10 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.npm.taobao.org/react-is/download/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ=
 
-react-native-navigation-hybrid@^0.25.0:
-  version "0.25.0"
-  resolved "https://registry.yarnpkg.com/react-native-navigation-hybrid/-/react-native-navigation-hybrid-0.25.0.tgz#6086966d7b401141bce1276b3e7fb217b3e2ba2e"
-  integrity sha512-UHHXwqarzWVLRcajBWzj1rdNk5/rSkA3pNy+ZmWQU8q2xXDmIDn0uQhEkJ48uW61cumZnwXwa+S1V+c5VQiTSg==
+react-native-navigation-hybrid@^0.30.0:
+  version "0.30.0"
+  resolved "https://registry.yarnpkg.com/react-native-navigation-hybrid/-/react-native-navigation-hybrid-0.30.0.tgz#f3ff271e355ef30f1f9d7a420d69aa132fa73d32"
+  integrity sha512-cJfqApBbu5/Tyybo2P/PQD6sWZG1dFyY0puGagG/X/gShD5wW9ROzQRR0xaEubdOEEOH1w4SzawNGvhFqzqfOg==
   dependencies:
     path-to-regexp "^6.1.0"
 

@@ -67,7 +67,7 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - NavigationHybrid (0.25.0):
+  - NavigationHybrid (0.30.0):
     - React
   - OpenSSL-Universal (1.0.2.19):
     - OpenSSL-Universal/Static (= 1.0.2.19)
@@ -439,7 +439,7 @@ SPEC CHECKSUMS:
   FlipperKit: bc68102cd4952a258a23c9c1b316c7bec1fecf83
   Folly: b73c3869541e86821df3c387eb0af5f65addfab4
   glog: 40a13f7840415b9a77023fbcae0f1e6f43192af3
-  NavigationHybrid: f491712d7a7cb092df0b13f8eb7aea431bc01d22
+  NavigationHybrid: a77d572f063cb90361d32f076d674fa80f9ffa0b
   OpenSSL-Universal: 8b48cc0d10c1b2923617dfe5c178aa9ed2689355
   RCTRequired: e46bb77db03887b3e200d34b08515c804669db99
   RCTTypeSafety: 270fed6675c42f80fb87b47d626ef3cede1505e6
@@ -466,4 +466,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: e3a583ee9b9b628cec3048cb90a9b4507af38f29
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.10.1
